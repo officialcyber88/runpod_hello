@@ -1,0 +1,16 @@
+{
+  "title": "Runpod Hello World",
+  "description": "A simple hello world serverless endpoint for RunPod.",
+  "type": "serverless",
+  "category": "text",
+  "config": {
+    "runsOn": "GPU",
+    "containerDiskInGb": 10,
+    "presets": [
+      {
+        "name": "Default"
+      }
+    ],
+    "env": []
+  }
+}
